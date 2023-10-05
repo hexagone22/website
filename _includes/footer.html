@@ -1,34 +1,14 @@
+<style>
+#map { position: relative; top: 0; bottom: 0; width: 100%; }
+
+</style>
+
 <footer>
   {% include stripes.html %}
   <div class="container py-4">
     <div class="row align-items-start  justify-content-around">
-      <div class="col-lg-4 col-md-6 text-center px-5 mx-auto">
-        <h5>Plan du site</h5>
-        <hr class="mb-4 mt-0 d-inline-block mx-auto" style="width: 60px; background-color: #ffffff; height: 2px" />
-        <a href="{{ absolute_url }}/taxi">
-          <p class="fw-5 text-white">Taxis</p>
-        </a>
-        <a href="{{ absolute_url }}/taxi_conventionne">
-          <p class="fw-5 text-white">Taxis Conventionnés</p>
-        </a>
-        <a href="{{ absolute_url }}/tpmr">
-          <p class="fw-5 text-white">Transports Personnes à Mobilité Réduite</p>
-        </a>
-        <a href="{{ absolute_url }}/transfert">
-          <p class="fw-5 text-white">Navette Aéroport</p>
-        </a>
-        <a href="{{ absolute_url }}/evenement">
-          <p class="fw-5 text-white">Evénement & Transport de groupe</p>
-        </a>
-        <a href="{{ absolute_url }}/mini_car">
-          <p class="fw-5 text-white">Transport mini-bus / mini-car</p>
-        </a>
-        <a href="{{ absolute_url }}/garantie">
-          <p class="fw-5 text-white">Nos garanties, Votre sécurité </p>
-        </a>
-        <!-- <a href="{{ absolute_url }}/entreprise">
-          <p class="fw-5 text-white">Transport de salariés</p>
-        </a> -->
+      <div class="col-lg-4 col-md-6 text-center px-5 mx-auto" id="map">
+
 
       </div>
       <div class="col-lg-4 col-md-6 d-flex">
@@ -85,3 +65,28 @@
 <!-- <script src="./assets/js/main.js"></script> -->
 
 
+<link href="https://api.mapbox.com/mapbox-gl-js/v2.14.1/mapbox-gl.css" rel="stylesheet">
+<script src="https://api.mapbox.com/mapbox-gl-js/v2.14.1/mapbox-gl.js"></script>
+
+<script>
+mapboxgl.accessToken = 'pk.eyJ1Ijoic2Vic3dhbiIsImEiOiJjbG5kZXJuOGswNDBhMm1ybGpsZHp1dDFkIn0.BL8TVlNOyvVHq82YTVSB9w';
+
+
+    var map = new mapboxgl.Map({
+      container: 'map',
+      style: 'mapbox://styles/mapbox/streets-v11?optimize=true',
+      center: [-1.591313, 48.837438],
+      zoom: 13
+    });
+
+    var popup = new mapboxgl.Popup({ offset: 25 }).setText(
+      '120 rue Couraye 50400 Granville.'
+    );
+
+    var marker = new mapboxgl.Marker()
+      .setLngLat([-1.591313, 48.837438])
+      .setPopup(popup)
+      .addTo(map);
+
+
+</script>
