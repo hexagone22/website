@@ -1,0 +1,38 @@
+<style>
+.navbar-nav .nav-item {
+    flex-grow: 1;
+    text-align: center;
+}
+</style>
+
+<nav class="navbar navbar-dark sticky-top navbar-expand-lg bg-primary ">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">Atelier 2D</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="container ">
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav justify-content-evently w-100">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Accueil</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Maison Neuve</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Extension</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Rénovation</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Prestations à la carte</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</nav>
+
+{% include stripes.html %}
