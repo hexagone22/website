@@ -1,0 +1,31 @@
+<style>
+  .hr1 {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  border: 0;
+  border-top: 1px solid rgb(150, 113, 64);
+}
+
+</style>
+
+<div class="container-fluid {{ include.bg }}">
+  <div class="container ">
+    <div class="row p-4 red">
+      ???
+    </div>
+
+    <div class="row {{ include.text-color }}">
+    <div class="col-12 col-md-6 px-5 {% if include.image_on_left %}order-md-2{% endif %}">
+      <h2 class="pb-2 ">
+        {{ include.title }}
+        <div class="hr1"></div>
+      </h2>
+      <p class="ps-2 parg">{{ include.text }}</p>
+    </div>
+    <div class="col-12 col-md-6 d-flex justify-content-center align-items-center {% if include.image_on_left %}order-md-1{% endif %}">
+      <img src="{{ include.image-link}}" class="imgarg shadow" style="width:400px;" alt="">
+    </div>
+  </div>
+</div>
+
+  </div>
