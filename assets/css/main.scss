@@ -1,14 +1,26 @@
 ---
 ---
 
+
 // Importing Bootstrap
 @import "custom/variables";
 @import "bootstrap/bootstrap";
 
 
+
+@font-face {
+  font-family: 'SourceSansPro-Regular';
+  src: url('{{absolute.url}}/assets/fonts/SourceSansPro-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
 body {
   background-repeat: repeat;
   background-image: linear-gradient(0deg, rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.7)), url("{{ '/assets/images/depoli2.png' | absolute_url }}");
+
+  font-family: 'SourceSansPro-Regular', sans-serif;
 }
 
 body::before {
