@@ -1528,7 +1528,7 @@ $breadcrumb-divider:                quote("/") !default;
 $breadcrumb-divider-flipped:        $breadcrumb-divider !default;
 $breadcrumb-border-radius:          null !default;
 // scss-docs-end breadcrumb-variables
- 
+
 // Carousel
 
 // scss-docs-start carousel-variables
@@ -1547,10 +1547,10 @@ $carousel-indicator-active-bg:       $white !default;
 $carousel-indicator-active-opacity:  1 !default;
 $carousel-indicator-transition:      opacity .6s ease !default;
 
-$carousel-caption-width:             70% !default;
+$carousel-caption-width:             50% !default;
 $carousel-caption-color:             $white !default;
 $carousel-caption-padding-y:         1.25rem !default;
-$carousel-caption-spacer:            1.25rem !default;
+$carousel-caption-spacer:            50% !default;
 
 $carousel-control-icon-width:        2rem !default;
 

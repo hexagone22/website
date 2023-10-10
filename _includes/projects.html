@@ -22,60 +22,85 @@
     -webkit-transform: scale(1.05);
     -ms-transform: scale(1.05);
     transform: scale(1.05); }
+
+  .image-project {
+  width: 100%; /* Ajuste la largeur à 100% du conteneur parent */
+  padding-top: 75%; /* Maintient le ratio hauteur/largeur de l'image */
+  position: relative;
+  border-radius: 5px;
+  overflow: hidden; /* Cache les parties de l'image qui dépassent du conteneur */
+}
+
+.image-project img {
+  width: 100%; /* Ajuste la largeur à 100% du conteneur parent */
+  height: 100%; /* Ajuste la hauteur à 100% du conteneur parent */
+  object-fit: cover; /* S'assure que l'image couvre toute la zone du conteneur */
+  display: block; /* Supprime l'espace indésirable sous l'image */
+  position: absolute; /* Positionne l'image par rapport au conteneur parent */
+  top: 0;
+  left: 0;
+}
+
+@media (min-width: 768px) {
+  .image-project {
+    width: 400px; /* Définit une largeur fixe pour les écrans plus larges */
+    height: 300px; /* Définit une hauteur fixe pour les écrans plus larges */
+  }
+}
+
+
 </style>
 
 <div class="site-section" id="projects-section">
       <div class="container">
-        <div class="row justify-content-center">
-          <div class="col-md-7 text-center">
-            <span class="sub-title">Awesome Projects</span>
-            <h2 class="font-weight-bold text-black">Our Projects</h2>
-            <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi, explicabo, quasi. Magni deserunt sunt labore.</p>
+        <div class="row">
+          <div class="col-12 service-container mb-5">
+            <h2 class="text-black service-title fst-italic">Nos Projets</h2>
           </div>
         </div>
         <div class="row">
           <div class="col-lg-4 col-md-6 mb-4 project-entry">
-            <a href="images/img_1.jpg" class="d-block figure" data-fancybox="gallery">
-              <img src="{{ absolute.url }}/assets/images/reno.jpg" alt="Image" class="img-fluid">
+            <a href="images/img_1.jpg" class="d-block figure image-project " data-fancybox="gallery">
+              <img src="{{ absolute.url }}/assets/images/maison_neuve.jpg" alt="Image" class="">
             </a>
-            <h3 class="mb-0"><a href="#">Butterfly House</a></h3>
-            <span class="text-muted">Interior</span>
+            <h3 class="mb-0"><a href="#">Plans en 3 Dimensions</a></h3>
+            <span class="text-muted">Maison Neuve</span>
           </div>
           <div class="col-lg-4 col-md-6 mb-4 project-entry">
-            <a href="images/img_2.jpg" class="d-block figure" data-fancybox="gallery">
-              <img src="{{ absolute.url }}/assets/images/reno.jpg" alt="Image" class="img-fluid">
+            <a href="images/img_2.jpg" class="d-block figure image-project" data-fancybox="gallery">
+              <img src="{{ absolute.url }}/assets/images/extension.jpg" alt="Image" class="">
             </a>
-            <h3 class="mb-0"><a href="#">Interior Bed Design</a></h3>
-            <span class="text-muted">Design</span>
+            <h3 class="mb-0"><a href="#">Extension pour l'aménagement d'un garage</a></h3>
+            <span class="text-muted">Extension</span>
           </div>
           <div class="col-lg-4 col-md-6 mb-4 project-entry">
-            <a href="images/img_3.jpg" class="d-block figure" data-fancybox="gallery">
-              <img src="{{ absolute.url }}/assets/images/reno.jpg" alt="Image" class="img-fluid">
+            <a href="images/img_3.jpg" class="d-block figure image-project" data-fancybox="gallery">
+              <img src="{{ absolute.url }}/assets/images/extension_cuisine.jpg" alt="Image" class="">
             </a>
-            <h3 class="mb-0"><a href="#">Kitchen Sink Design</a></h3>
-            <span class="text-muted">Interior</span>
+            <h3 class="mb-0"><a href="#">Extension pour l'aménagement d'une cuisine</a></h3>
+            <span class="text-muted">Extension</span>
           </div>
 
           <div class="col-lg-4 col-md-6 mb-4 project-entry">
-            <a href="images/img_4.jpg" class="d-block figure" data-fancybox="gallery">
-              <img src="{{ absolute.url }}/assets/images/reno.jpg" alt="Image" class="img-fluid">
+            <a href="images/img_4.jpg" class="d-block figure image-project" data-fancybox="gallery">
+              <img src="{{ absolute.url }}/assets/images/reno3.jpg" alt="Image" class="">
             </a>
-            <h3 class="mb-0"><a href="#">Lobby Interior Design</a></h3>
-            <span class="text-muted">Interior</span>
+            <h3 class="mb-0"><a href="#">Rénovation Compléte Maison</a></h3>
+            <span class="text-muted">Rénovation</span>
           </div>
           <div class="col-lg-4 col-md-6 mb-4 project-entry">
-            <a href="images/img_5.jpg" class="d-block figure" data-fancybox="gallery">
-              <img src="{{ absolute.url }}/assets/images/reno.jpg" alt="Image" class="img-fluid">
+            <a href="images/img_5.jpg" class="d-block figure image-project" data-fancybox="gallery">
+              <img src="{{ absolute.url }}/assets/images/elevation.png" alt="Image" class="">
             </a>
-            <h3 class="mb-0"><a href="#">Relaxation Room Design</a></h3>
-            <span class="text-muted">Design</span>
+            <h3 class="mb-0"><a href="#">Elevation</a></h3>
+            <span class="text-muted">Etude</span>
           </div>
           <div class="col-lg-4 col-md-6 mb-4 project-entry">
-            <a href="images/img_6.jpg" class="d-block figure" data-fancybox="gallery">
-              <img src="{{ absolute.url }}/assets/images/reno.jpg" alt="Image" class="img-fluid">
+            <a href="images/img_6.jpg" class="d-block figure image-project" data-fancybox="gallery">
+              <img src="{{ absolute.url }}/assets/images/maison_neuve2.jpg" alt="Image" class="img-fluid">
             </a>
-            <h3 class="mb-0"><a href="#">Butterfly House</a></h3>
-            <span class="text-muted">Interior</span>
+            <h3 class="mb-0"><a href="#">Maison Neuve</a></h3>
+            <span class="text-muted">Maison Neuve</span>
           </div>
         </div>
       </div>

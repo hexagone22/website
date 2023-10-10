@@ -6,3 +6,5 @@ sass:
   sass_dir: _sass
   style: compact # possible values: nested expanded compact compressed
 
+exclude:
+  - _posts/your-excluded-post.md
