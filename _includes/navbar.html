@@ -1,13 +1,52 @@
 <style>
-.navbar-nav .nav-item {
+  /* Your existing style */
+  .navbar-nav .nav-item {
     flex-grow: 1;
     text-align: center;
-}
+  }
+  /* Style for brand name */
+  .brand-title {
+    display: none; /* Hide by default */
+    background-repeat: repeat;
+    background-image:  url("{{ '/assets/images/depoli3.png' | absolute_url }}");
+     background-position: -50px 170px;
+
+  }
+  @media (min-width: 992px) { /* Show on desktop */
+    .brand-title {
+      display: block;
+      height: 7rem;
+    }
+    .navbar-brand {
+      display: none; /* Hide the mobile brand name */
+    }
+  }
+
+  .logo {
+    height: 6.5rem;
+  }
+
+  .logocetmo {
+    height: 5rem;
+  }
+
+
 </style>
+
+<div class="brand-title bg-secondary text-white d-flex justify-content-center ">
+  <!-- Brand title for desktop -->
+  <div class="container-fluid">
+    <div class="d-flex flex-column align-items-center">
+      <img src="{{absolute.url}}/assets/images/logo.png" alt="" class="img-fluid logo">
+      <img src="{{absolute.url}}/assets/images/logocetmo.png" alt="" class="img-fluid logocetmo d-lg-none">
+    </div>
+  </div>
+
+</div>
 
 <nav class="navbar navbar-dark sticky-top navbar-expand-lg bg-primary ">
   <div class="container-fluid">
-    <a class="navbar-brand" href="#">Atelier 2D</a>
+     <!-- <a class="navbar-brand d-lg-none" href="#">Atelier 2D</a> ici je souhaite que la marque disparaisse sur les grand ecran at apparaissent sur mobile -->
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
