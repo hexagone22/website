@@ -1,0 +1,8 @@
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "" # the subpath of your site, e.g. /blog
+title: "Atelier 2D - Conception et Maitrise d'oeuvre" # the name of your site, e.g. ACME Corp.
+
+sass:
+  sass_dir: _sass
+  style: compact # possible values: nested expanded compact compressed
+
