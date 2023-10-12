@@ -1,5 +1,5 @@
-url: "https://http://www.atelier-2d.fr" # the base hostname & protocol for your site, e.g. http://example.com
-baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://atelier2d.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "atelier2d" # the subpath of your site, e.g. /blog
 title: "Atelier 2D - Conception et Maîtrise d'Œuvre" # the name of your site, e.g. ACME Corp.
 
 sass:

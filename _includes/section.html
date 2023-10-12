@@ -49,7 +49,7 @@
       </div>
       <div class="col-12 col-md-6 d-flex justify-content-center align-items-center {% if include.image_on_left %}order-md-1{% endif %}">
         <div class="image-container" style="box-shadow: 10px 10px 2px 1px {{ include.underline-color }}">
-          <img src="{{ include.image-link }}" alt="" class="rounded">
+          <img src="{{ include.image-link | absolute_url }}" alt="" class="rounded">
         </div>
       </div>
     </div>
