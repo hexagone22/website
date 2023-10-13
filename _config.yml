@@ -1,8 +1,22 @@
 url: "https://atelier2d.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 baseurl: "atelier2d" # the subpath of your site, e.g. /blog
-title: "Atelier 2D - Conception et Maîtrise d'Œuvre" # the name of your site, e.g. ACME Corp.
+
 
 sass:
   sass_dir: _sass
   style: compact # possible values: nested expanded compact compressed
 
+markdown: kramdown
+
+
+
+title: "Atelier 2D - Conception et Maitrise d'oeuvre à Langueux et Saint-Brieuc" # the name of your site, e.g. ACME Corp.
+tagline: "Transformer Vos Espaces, Réaliser Vos Rêves"
+description: "Atelier 2D est votre partenaire pour tous vos projets d'architecture. Du neuf à la rénovation et aux extensions, notre expertise et flexibilité vous accompagnent à chaque étape. Notre approche est centrée sur le client, avec un souci du détail."
+# logo: /assets/images/logoLSA.png
+locale: "Fr"
+
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
