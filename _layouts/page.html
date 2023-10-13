@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: 'fr-FR' }}">
+
+
+<body>
+  {% include navbar.html %}
+  {% include bandeau.html %}
+
+  <div class="container">
+    <div class="row d-flex flex-wrap-reverse p-5">
+      <div class="col-lg-4">
+        <img class="img-fluid shadow-lg rounded m-2" alt="{{page.picture }}" src="{{ absolute_url }}/assets/images/{{ page.picture }}" >
+        {% if page.picture2 %}
+        <img class="img-fluid shadow-lg rounded m-2" alt="{{page.picture2 }}" src="{{ absolute_url }}/assets/images/{{ page.picture2 }}" >
+        {% endif %}
+        {% if page.picture3 %}
+        <img class="img-fluid shadow-lg rounded m-2" alt="{{page.picture3 }}" src="{{ absolute_url }}/assets/images/{{ page.picture3 }}" >
+        {% endif %}
+      </div>
+      <div class="col-lg-8">
+        {{ content }}
+        <div class="text-center">
+          <a href="{{ absolute_url }}/contact">
+            <div class="btn btn-primary m-5" style="color:white;">DEMANDEZ UN DEVIS</div>
+          </a>
+        </div>
+
+      </div>
+    </div>
+  </div>
+  {% include footer.html %}
+
+</body>
+
+</html>

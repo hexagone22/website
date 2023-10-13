@@ -68,7 +68,6 @@ PLATFORMS
 DEPENDENCIES
   jekyll (= 3.9.0)
   jekyll-feed
-  jekyll-sass-converter
   jekyll-seo-tag
   jekyll-sitemap
   kramdown-parser-gfm

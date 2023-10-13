@@ -1,8 +1,21 @@
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 baseurl: "" # the subpath of your site, e.g. /blog
-title: "Atelier 2D - Conception et Maitrise d'oeuvre" # the name of your site, e.g. ACME Corp.
 
 sass:
   sass_dir: _sass
   style: compact # possible values: nested expanded compact compressed
 
+markdown: kramdown
+
+
+
+title: "Atelier 2D - Conception et Maitrise d'oeuvre" # the name of your site, e.g. ACME Corp.
+tagline: "Lesaffre Service Assistance | Taxi TPMR et Services pour Entreprises et scolaires"
+description: "Lesaffre Service Assistance met à votre disposition des véhicules spacieux breaks, mini-car, mini-bus, pour transporter de 1 à 20 personnes?"
+# logo: /assets/images/logoLSA.png
+locale: "Fr"
+
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
