@@ -2,9 +2,9 @@
 title: Services
 layout: page
 permalink: /services
-bandeau: maison_neuve.jpg
+bandeau: rdc2.png
 picture: "maison_neuve.jpg"
-picture2: "maison_neuve.jpg"
+picture2: "elevation.png"
 ---
 
 Nous proposons une gamme complète de services, allant de la première consultation à la finalisation du projet, incluant la conception 3D, la coordination d'artisans, la gestion thermique, les demandes administratives et le suivi minutieux du chantier.

@@ -2,9 +2,9 @@
 title: Rénovation
 layout: page
 permalink: /renovation
-bandeau: maison_neuve.jpg
-picture: "maison_neuve.jpg"
-picture2: "maison_neuve.jpg"
+bandeau: reno3.jpg
+picture: "reno2.jpg"
+picture2: "renoavap.png"
 ---
 
 ## renovation
