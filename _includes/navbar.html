@@ -1,60 +1,87 @@
 <style>
-  /* Your existing style */
-  .navbar-nav .nav-item {
-    flex-grow: 1;
-    text-align: center;
-  }
-  /* Style for brand name */
+/* Your existing style */
+.navbar-nav .nav-item {
+  flex-grow: 1;
+  text-align: center;
+}
+
+/* Style for brand name */
+.brand-title {
+  display: none; /* Hide by default */
+  background-repeat: repeat;
+}
+
+.logo {
+  height: 6.5rem;
+}
+
+.logo-cetmo-inline {
+  width: 45%;
+  height: 45%;
+}
+
+.logo-cetmo {
+  height: 5rem;
+}
+
+.conception-et-mo {
+  margin-bottom: 1rem;
+}
+
+@media (min-width: 992px) {
   .brand-title {
-    display: none; /* Hide by default */
-    background-repeat: repeat;
-    background-image:  url("{{ '/assets/images/depoli3.png' | absolute_url }}");
-     background-position: -50px 170px;
-
-  }
-  @media (min-width: 992px) { /* Show on desktop */
-    .brand-title {
-      display: block;
-      height: 7rem;
-    }
-    .navbar-brand {
-      display: none; /* Hide the mobile brand name */
-    }
+    display: block;
+    height: 10.5rem;
   }
 
-  .logo {
-    height: 6.5rem;
+  .navbar-brand {
+    display: none; /* Hide the mobile brand name */
   }
 
-  .logocetmo {
-    height: 5rem;
+  .logo-cetmo-inline {
+    display: block;
   }
 
+  .logo-cetmo {
+    display: none;
+  }
+}
 
 </style>
 
-<div class="brand-title bg-secondary text-white d-flex justify-content-center ">
+<div class="brand-title bg-secondary text-white d-flex justify-content-center" style="background-image: url('{{ '/assets/images/depoli3.png' | absolute_url }}'); background-position: -50px 170px;">
   <!-- Brand title for desktop -->
   <div class="container-fluid">
     <div class="d-flex flex-column align-items-center">
-      <img src="{{ '/assets/images/logo.png' | absolute_url }}" alt="" class="img-fluid logo">
-      <img src="{{'/assets/images/logocetmo.png' | absolute_url }}"  alt="" class="img-fluid logocetmo d-lg-none">
+      <img src="{{ '/assets/images/logo.png' | absolute_url }}" alt="Brand Logo" class="img-fluid logo" />
+      <img src="{{ '/assets/images/conceptionetmo.png' | absolute_url }}" alt="Conception Et Mo" class="d-none d-lg-block logo-cetmo-inline" />
+      <img src="{{'/assets/images/logocetmo.png' | absolute_url }}" alt="Logo Conception Et Mo" class="img-fluid logo-cetmo d-lg-none" />
     </div>
   </div>
-
 </div>
 
-<nav class="navbar navbar-dark sticky-top navbar-expand-lg bg-primary ">
+
+<nav class="navbar navbar-dark sticky-top navbar-expand-lg bg-primary">
   <div class="container-fluid d-flex justify-content-end">
-     <!-- <a class="navbar-brand d-lg-none" href="#">Atelier 2D</a> ici je souhaite que la marque disparaisse sur les grand ecran at apparaissent sur mobile -->
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <!-- <a class="navbar-brand d-lg-none" href="#">Atelier 2D</a> ici je souhaite que la marque disparaisse sur les grand ecran at apparaissent sur mobile -->
+    <button
+      class="navbar-toggler"
+      type="button"
+      data-bs-toggle="collapse"
+      data-bs-target="#navbarNav"
+      aria-controls="navbarNav"
+      aria-expanded="false"
+      aria-label="Toggle navigation"
+    >
       <span class="navbar-toggler-icon"></span>
     </button>
-    <div class="container ">
+    <div class="container">
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav justify-content-evently w-100">
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="/">L'atelier</a>
+            <a class="nav-link active" aria-current="page" href="/"
+              >L'atelier</a
+            >
           </li>
           <li class="nav-item">
             <a class="nav-link" href="/neuf">Neuf</a>
