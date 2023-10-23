@@ -19,3 +19,11 @@ plugins:
   - jekyll-feed
   - jekyll-sitemap
   - jekyll-seo-tag
+
+facebook:
+  app_id: 61551899341644
+  
+social:
+  links:
+  -https://www.facebook.com/profile.php?id=61551899341644
+
