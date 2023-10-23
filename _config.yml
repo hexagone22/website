@@ -1,13 +1,12 @@
 url: "https://atelier2d.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 baseurl: "atelier2d" # the subpath of your site, e.g. /blog
-
+environment: production
 
 sass:
   sass_dir: _sass
   style: compact # possible values: nested expanded compact compressed
 
 markdown: kramdown
-
 
 
 title: "Atelier 2D - Conception et Maitrise d'oeuvre à Langueux et Saint-Brieuc" # the name of your site, e.g. ACME Corp.

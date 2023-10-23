@@ -8,7 +8,10 @@
     {% include navbar.html %}
     {{ content }}
     {% include footer.html %}
-    {% include tawk.html %}
+    {% if site.environment == "production" %}
+      {% include tawk.html %}
+    {% endif %}
+
   </body>
 </html>
 

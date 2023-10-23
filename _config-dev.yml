@@ -1,5 +1,6 @@
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 baseurl: "" # the subpath of your site, e.g. /blog
+environment: development
 
 sass:
   sass_dir: _sass
@@ -9,9 +10,9 @@ markdown: kramdown
 
 
 
-title: "Atelier 2D - Conception et Maitrise d'oeuvre" # the name of your site, e.g. ACME Corp.
-tagline: "Lesaffre Service Assistance | Taxi TPMR et Services pour Entreprises et scolaires"
-description: "Lesaffre Service Assistance met à votre disposition des véhicules spacieux breaks, mini-car, mini-bus, pour transporter de 1 à 20 personnes?"
+title: "Atelier 2D - Conception et Maitrise d'oeuvre à Langueux et Saint-Brieuc" # the name of your site, e.g. ACME Corp.
+tagline: "Transformer Vos Espaces, Réaliser Vos Rêves"
+description: "Atelier 2D est votre partenaire pour tous vos projets d'architecture. Du neuf à la rénovation et aux extensions, notre expertise et flexibilité vous accompagnent à chaque étape. Notre approche est centrée sur le client, avec un souci du détail."
 # logo: /assets/images/logoLSA.png
 locale: "Fr"
 
