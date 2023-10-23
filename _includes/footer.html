@@ -51,57 +51,7 @@
   </div>
 </footer>
 
-</script>
-
-
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
 
+{% include mapbox.html %}
 
-<link href="https://api.mapbox.com/mapbox-gl-js/v2.14.1/mapbox-gl.css" rel="stylesheet">
-<script src="https://api.mapbox.com/mapbox-gl-js/v2.14.1/mapbox-gl.js"></script>
-
-<script>
-mapboxgl.accessToken = 'pk.eyJ1Ijoic2Vic3dhbiIsImEiOiJjbG5kZXJuOGswNDBhMm1ybGpsZHp1dDFkIn0.BL8TVlNOyvVHq82YTVSB9w';
-
-
-    var map = new mapboxgl.Map({
-      container: 'map',
-      style: 'mapbox://styles/mapbox/streets-v11?optimize=true',
-      center: [-2.7173850381625893, 48.49558288844466 ],
-      zoom: 13
-    });
-
-    var popup = new mapboxgl.Popup({ offset: 25 }).setText(
-      "5 Place de l'Église, 22360 Langueux"
-    );
-
-    var marker = new mapboxgl.Marker()
-      .setLngLat([-2.7173850381625893, 48.49558288844466])
-      .setPopup(popup)
-      .addTo(map);
-
-      // This script checks the current URL and adds the 'active' class to the corresponding navbar item
-    document.addEventListener("DOMContentLoaded", function () {
-    // Get current page URL
-    let currentUrl = window.location.pathname;
-    if (currentUrl === "/") {
-    currentUrl = "/"; // If at the root, set to the base URL
-    }
-
-    // Select all navbar links
-    const navLinks = document.querySelectorAll(".navbar-nav .nav-link");
-
-    // Loop through each link
-    navLinks.forEach((link) => {
-    if (link.getAttribute("href") === currentUrl) {
-      // Add 'active' class to the link that matches the current URL
-      link.classList.add("active");
-    } else {
-      // Remove 'active' class from other links
-      link.classList.remove("active");
-    }
-    });
-    });
-
-
-</script>
