@@ -13,10 +13,10 @@ Chez Atelier 2D, nous abordons chaque projet de rénovation comme une nouvelle a
 
 Nous nous appliquons à respecter le cachet originel tout en y intégrant des améliorations fonctionnelles et esthétiques.
 
-Nos experts s'adaptent à la complexité et à la singularité de chaque projet, qu'il s'agisse de revitaliser une maison centenaire ou de moderniser un appartement.
+Nous nous adaptont à la complexité et à la singularité de chaque projet, qu'il s'agisse de revitaliser une maison centenaire ou de moderniser un appartement.
 
-Nous collaborons avec vous à chaque étape, de la conception à la réalisation. Que vous ayez besoin de notre expertise pour des phases spécifiques du projet, comme les demandes administratives, l'étude thermique, ou que vous nous confiez la gestion complète, nous veillons à ce que le résultat final soit à la hauteur de vos aspirations et reflète vos besoins uniques.
+Nous collaborons avec vous à chaque étape, de la conception à la réalisation. Que vous ayez besoin de notre expertise pour des phases spécifiques du projet, comme les demandes administratives, l'approche énergetique, ou nous confiez la gestion complète, nous veillons à ce que le résultat final soit à la hauteur de vos aspirations et reflète vos besoins uniques.
 
-En choisissant Atelier 2D pour vos travaux de rénovation, vous optez pour une transformation réfléchie, durable et personnalisée de votre habitat.
+En choisissant Atelier 2D pour vos travaux de rénovation, vous optez pour une évolution réfléchie, durable et personnalisée de votre habitat.
 
 
