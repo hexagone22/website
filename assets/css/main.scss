@@ -249,6 +249,17 @@ body::before {
   width: 80px;
 }
 
+.custom-media {
+  flex: 1;  /* Make sure each media object takes full vertical space */
+}
+
+.icon-text  {
+  // height: 80px;
+  width: 250px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 /* Debugging: Remove after development */
 /* div {
   border: 1px red solid;
