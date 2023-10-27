@@ -3,12 +3,11 @@ title: Renovation VE
 layout: projets
 permalink: /renovationve
 # bandeau: extension.jpg
-picture: "extension.jpg"
-# picture2: "extension_cuisine.jpg"
+picture: "photo_reno_avant.jpg"
+picture2: "extension.jpg"
 ---
 
-## Description
-<!-- 
+
 Année: 2021
 
 Type de prestation:

@@ -4,10 +4,11 @@ layout: projets
 permalink: /maisonal
 # bandeau: extension.jpg
 picture: "elevation.png"
-# picture2: "extension_cuisine.jpg"
+# picture2: "elevation_futur.png"
+# picture3: "maison_neuve.jpg"
+# picture2: "elevation_futur.png"
 ---
 
-## Description
 
 <!-- Année: 2021
 
