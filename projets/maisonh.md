@@ -4,7 +4,8 @@ layout: projets
 permalink: /maisonh
 # bandeau: extension.jpg
 picture: "maison_neuve.jpg"
-# picture2: "extension_cuisine.jpg"
+picture2: "elevation_futur.png"
+# picture3: "plan_etage.png"
 ---
 
 ## Description

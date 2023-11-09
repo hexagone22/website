@@ -4,6 +4,7 @@ layout: projets
 permalink: /maisonal
 # bandeau: extension.jpg
 picture: "elevation.png"
+picture2: "plan_etage.png"
 # picture2: "elevation_futur.png"
 # picture3: "maison_neuve.jpg"
 # picture2: "elevation_futur.png"

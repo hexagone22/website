@@ -3,8 +3,8 @@ title: Rénovation
 layout: page
 permalink: /renovation
 bandeau: reno3.jpg
-picture: "reno2.jpg"
-picture2: "renoavap.png"
+picture: "renoavap.png"
+picture2: "renovation_avant_apres.jpg"
 ---
 
 La rénovation est bien plus qu'un simple rafraîchissement ; elle est une seconde vie que l'on offre à un espace.
