@@ -4,7 +4,7 @@ layout: page
 permalink: /renovation
 bandeau: reno3.jpg
 picture: "renoavap.png"
-picture2: "renovation_avant_apres.jpg"
+picture2: "rénovation_ploufragan.png"
 ---
 
 La rénovation est bien plus qu'un simple rafraîchissement ; elle est une seconde vie que l'on offre à un espace.
