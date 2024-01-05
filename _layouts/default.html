@@ -5,15 +5,7 @@
     {% include head.html %}
   </head>
   <body>
-
-    
-    {% include navbar.html %}
     {{ content }}
-    {% include footer.html %}
-    {% if site.environment == "production" %}
-      {% include tawk.html %}
-    {% endif %}
-    <!-- {% include lazyload.html %} -->
   </body>
 </html>
 

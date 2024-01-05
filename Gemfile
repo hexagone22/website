@@ -3,8 +3,9 @@
 source "https://rubygems.org"
 
 # gem "rails"
-gem "jekyll", '3.9.0'
+gem "jekyll", '3.9.3'
 gem "kramdown-parser-gfm"
+
 
 group :jekyll_plugins do
   gem 'jekyll-sitemap'

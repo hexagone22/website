@@ -9,9 +9,9 @@ sass:
 markdown: kramdown
 
 
-title: "Atelier 2D - Conception et Maitrise d'oeuvre à Langueux et Saint-Brieuc" # the name of your site, e.g. ACME Corp.
-tagline: "Créativité et Expertise: Votre Vision, Notre Mission."
-description: "Maître d'œuvre à Langueux, spécialistes en conception et suivi de travaux avec artisans locaux. Intervenant sur 35kms autour de Saint-Brieuc. Expertise RE2020, rénovation et extensions."
+title: "Title" # the name of your site, e.g. ACME Corp.
+tagline: "Tagline"
+description: "Description"
 # logo: /assets/images/logoLSA.png
 locale: "Fr"
 
@@ -20,10 +20,10 @@ plugins:
   - jekyll-sitemap
   - jekyll-seo-tag
 
-facebook:
-  app_id: 61551899341644
+# facebook:
+#   app_id: 61551899341644
 
-social:
-  links:
-  - https://www.facebook.com/profile.php?id=61551899341644
+# social:
+#   links:
+#   - https://www.facebook.com/profile.php?id=61551899341644
 
