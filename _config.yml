@@ -1,5 +1,5 @@
-url: "https://atelier2d.github.io" # the base hostname & protocol for your site, e.g. http://example.com
-baseurl: "atelier2d" # the subpath of your site, e.g. /blog
+url: "https://hexagone22.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "website" # the subpath of your site, e.g. /blog
 environment: production
 
 sass:
