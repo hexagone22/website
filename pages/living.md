@@ -2,7 +2,7 @@
 title: Living
 layout: template_page
 permalink: /living
-image_header: "cuisine/C_Yota 2 (3).jpg"
+image_header: "cuisine/C_Yota.jpg"
 image1: "cuisine/C_Kappa 2 (4).jpg"
 image2: "cuisine/C_Kappa 2 (4).jpg"
 image3: "cuisine/C_Kappa 2 (4).jpg"
