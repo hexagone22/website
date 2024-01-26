@@ -6,7 +6,7 @@ image_header: "cuisine/C_Yota 2 (3).jpg"
 image1: "cuisine/C_Kappa 2 (4).jpg"
 image2: "cuisine/C_Kappa 2 (4).jpg"
 image3: "cuisine/C_Kappa 2 (4).jpg"
-title_content: "Concevons la Cuisine de Vos Rêves Ensemble"
-text: "Chaque cuisine que nous créons est une histoire de passion et de précision. De la conception initiale à l'installation finale, nous sommes là pour réaliser la cuisine parfaite pour vous. Faites-nous confiance pour créer un espace où cuisiner devient un plaisir quotidien"
+title_content: "Salle de Bain Sur Mesure pour Votre Confort"
+text: "Une belle salle de bain contribue à votre bien-être quotidien. Nous concevons des espaces qui allient confort, praticité et esthétique. Parlez-nous de vos idées, et nous créerons ensemble la salle de bain dont vous rêvez."
 ---
 
