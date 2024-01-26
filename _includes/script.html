@@ -29,3 +29,60 @@
 <script src="{{ '/assets/js/themebau.min.js'| absolute_url }}"></script>
 <!-- {{ '/assets/css/themebau.min.css' | absolute_url }} -->
 <!-- END: Scripts -->
+<script>
+  // This script checks the current URL and adds the 'active' class to the corresponding navbar item
+    document.addEventListener("DOMContentLoaded", function () {
+      // Get current page URL
+      let currentUrl = window.location.pathname;
+      if (currentUrl === "/") {
+        currentUrl = "/"; // If at the root, set to the base URL
+      }
+
+      // Select all navbar links
+      const navLinks = document.querySelectorAll(".nav-link");
+      const collapses = document.querySelectorAll(".navbar-collapse");
+
+      // Loop through each link
+      navLinks.forEach((link) => {
+        if (link.getAttribute("href") === currentUrl) {
+          // Add 'active' class to the link that matches the current URL
+          link.classList.add("active");
+        } else {
+          // Remove 'active' class from other links
+          link.classList.remove("active");
+        }
+      });
+
+      collapses.forEach((link) => {
+        if (link.getAttribute("href") === currentUrl) {
+          // Add 'active' class to the link that matches the current URL
+          link.classList.add("active");
+        } else {
+          // Remove 'active' class from other links
+          link.classList.remove("active");
+        }
+      });
+
+
+    });
+
+
+
+
+
+    var mentionsElement = document.getElementById("mentions");
+
+    function updateMentions() {
+      var currentText = mentionsElement.textContent || mentionsElement.innerText;
+      if (currentText.includes("SARL ATELIER 2D")) {
+        mentionsElement.innerHTML =
+          "© " + new Date().getFullYear() + " mentions légales";
+      } else {
+        mentionsElement.innerHTML =
+          " SARL Hexagone Création - Webmaster et Hébergement - Etienne Design";
+      }
+    }
+
+    mentionsElement.addEventListener("click", updateMentions);
+
+</script>
