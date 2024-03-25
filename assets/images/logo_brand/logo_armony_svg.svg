@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 23.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" [
+	<!ENTITY ns_extend "http://ns.adobe.com/Extensibility/1.0/">
+	<!ENTITY ns_ai "http://ns.adobe.com/AdobeIllustrator/10.0/">
+	<!ENTITY ns_graphs "http://ns.adobe.com/Graphs/1.0/">
+	<!ENTITY ns_vars "http://ns.adobe.com/Variables/1.0/">
+	<!ENTITY ns_imrep "http://ns.adobe.com/ImageReplacement/1.0/">
+	<!ENTITY ns_sfw "http://ns.adobe.com/SaveForWeb/1.0/">
+	<!ENTITY ns_custom "http://ns.adobe.com/GenericCustomNamespace/1.0/">
+	<!ENTITY ns_adobe_xpath "http://ns.adobe.com/XPath/1.0/">
+]>
+<svg version="1.1" id="Livello_1" xmlns:x="&ns_extend;" xmlns:i="&ns_ai;" xmlns:graph="&ns_graphs;"
+	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 233.2 40.7"
+	 style="enable-background:new 0 0 233.2 40.7;" xml:space="preserve">
+<metadata>
+	<sfw  xmlns="&ns_sfw;">
+		<slices></slices>
+		<sliceSourceBounds  bottomLeftOrigin="true" height="165.9" width="233.2" x="181.1" y="-567.7"></sliceSourceBounds>
+	</sfw>
+</metadata>
+<path d="M233.2,3.8h-8.4l-7.3,12l-7.3-12h-8.4l11.7,19.5v16.5h8.1V23.3L233.2,3.8z M195.8,40.7V4h-8v19.7L165.2,3v36.8h8.1v-20
+	L195.8,40.7z M150.1,22c0,6.3-4,11.5-10.8,11.5c-6.7,0-10.8-5.2-10.8-11.5c0-6.2,4.1-11.4,10.8-11.4C146.1,10.6,150.1,15.8,150.1,22
+	 M158,22c0-10.4-7.6-18.3-18.7-18.3c-11.1,0-18.8,7.9-18.8,18.3c0,10.4,7.7,18.4,18.8,18.4C150.7,40.4,158,32.4,158,22 M113.9,39.8
+	V2.7L96.2,21.5L78,2.8v37h8V20.4l10.1,10.8l9.8-10.7v19.3H113.9z M58.6,14.7c0,2.2-1.1,4.9-5.4,4.9h-3.7v-9.1h3.7
+	C57.1,10.5,58.6,12.5,58.6,14.7 M70.7,39.8L59.2,24.4c3.8-0.8,7.4-3.9,7.4-9.8C66.6,7.4,61,4,53.5,4h-12v35.8h8V23l11,16.7H70.7z
+	 M17.6,19.8l3.7,7.7h-7.4L17.6,19.8z M17.6,2.4L0,39.9h8.1l3.2-6.9H24l3.2,6.9l8.1,0L17.6,2.4z"/>
+</svg>
