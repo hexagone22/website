@@ -10,9 +10,9 @@ markdown: kramdown
 
 
 
-title: "Atelier 2D - Conception et Maitrise d'oeuvre à Langueux et Saint-Brieuc" # the name of your site, e.g. ACME Corp.
-tagline: ""
-description: "Atelier 2D est votre partenaire pour tous vos projets d'architecture. Du neuf à la rénovation et aux extensions, notre expertise et flexibilité vous accompagnent à chaque étape. Notre approche est centrée sur le client, avec un souci du détail."
+title: "Cuisiniste & Aménagemen d'Intérieur à Domicile Saint-Brieuc, Erquy, Saint-Quay Portrieux" # the name of your site, e.g. ACME Corp.
+description: "Emmanuelle Helloco se déplace chez vous dans les Côtes d'Armor pour vos projets de cuisine, aménagement d'intérieur, plan de travail, dressing, living, électro-ménager"
+# tagline: "Tagline"
 # logo: /assets/images/logoLSA.png
 locale: "Fr"
 
