@@ -1,4 +1,4 @@
-url: "https://hexagone22.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://www.hexagonecreation.fr" # the base hostname & protocol for your site, e.g. http://example.com
 baseurl: "website" # the subpath of your site, e.g. /blog
 environment: production
 
@@ -10,8 +10,8 @@ markdown: kramdown
 
 
 title: "Cuisiniste & Aménagemen intérieur à Domicile Saint-Brieuc, Erquy, Saint-Quay Portrieux" # the name of your site, e.g. ACME Corp.
-tagline: "Tagline"
 description: "Emmanuelle Helloco se déplace chez vous dans les côtes d'Armor pour vos projets de cuisine et d'aménagement d'intérieur, dressing, living-room, électro-ménager"
+# tagline: "Tagline"
 # logo: /assets/images/logoLSA.png
 locale: "Fr"
 
