@@ -9,8 +9,8 @@ sass:
 markdown: kramdown
 
 
-title: "Cuisiniste & Aménagement intérieur à Domicile Saint-Brieuc, Erquy, Saint-Quay Portrieux" # the name of your site, e.g. ACME Corp.
-description: "Emmanuelle Helloco se déplace chez vous dans les côtes d'Armor pour vos projets de cuisine et d'aménagement d'intérieur, salle de bain, dressing, living, électro-ménager"
+title: "Cuisiniste & Aménagement Intérieur à domicile" # the name of your site, e.g. ACME Corp.
+description: "Emmanuel Le Helloco se déplace chez vous autour de Saint-Brieuc pour vos projets de cuisine et d'aménagement d'intérieur, salle de bain, dressing, living, électro-ménager"
 # tagline: "Tagline"
 # logo: /assets/images/logoLSA.png
 locale: "Fr"
